@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import AdminView from './AdminView';
 import ShopView from './ShopView';
+import CartView from './CartView';
 
 class HomePage extends Component {
   constructor() {
@@ -21,7 +22,7 @@ class HomePage extends Component {
  		  price: 0.12,
  		}
  	],
-    AdminView: true
+    cartList: [],
     };
   }
 
