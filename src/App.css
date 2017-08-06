@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/136075/pexels-photo-136075.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+h1 {
+  color: #56CBF9;
+}
+h2 {
+   color: #81F4E1;
+}
+span, div {
+  color: #FF729F;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
